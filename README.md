@@ -1,1 +1,1 @@
-# Community-Wiki-Tool
+# Community Wiki Tool
