@@ -1,9 +1,21 @@
 {
   "name": "community-wiki-tool",
-  "module": "index.ts",
+  "private": true,
+  "module": "src/index.ts",
   "type": "module",
+  "scripts": {
+    "cli": "ts-node src/index.ts"
+  },
+  "dependencies": {
+    "commander": "^12.1.0",
+    "dotenv": "^16.4.5"
+  },
   "devDependencies": {
-    "bun-types": "latest"
+    "@typescript-eslint/eslint-plugin": "^8.0.1",
+    "@typescript-eslint/parser": "^8.0.1",
+    "bun-types": "latest",
+    "eslint": "^9.8.0",
+    "prettier": "^3.3.3"
   },
   "peerDependencies": {
     "typescript": "^5.0.0"
