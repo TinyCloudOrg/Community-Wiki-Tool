@@ -46,22 +46,16 @@ bun cli publish
 - **Community Wiki/Explorer**: An interactive interface for exploring the knowledge graph.
 - **Community Recurring Digest**: Regular summaries (daily/weekly/etc.) of new and important information.
 
-Note: These outputs are gated through Zupass, ensuring access control and community privacy.
-
 ## Key Features
 - Processes diverse types of community-generated content
 - Uses AutoGraph to infer structures and connections between concepts
 - Organizes information into an explorable knowledge graph
 - Provides multiple ways to access and benefit from collective knowledge
 - Generates regular digests to keep community members informed
-- Gated access through Zupass for community privacy
+- Gating content is possible
 
 ## Technologies Used
 - AutoGraph: An AI-powered knowledge graph generator that uses an LLM (Large Language Model) pipeline for data sorting and structuring
-- Zupass: For gating access to the output interfaces
-
-## Usage
-*[This section will be expanded as the tool development progresses]*
 
 ## How It Works
 1. **Input**: The tool ingests data from community event transcriptions, Telegram chats, and social calendar events.
@@ -71,7 +65,3 @@ Note: These outputs are gated through Zupass, ensuring access control and commun
    - A comprehensive Community Knowledge Graph
    - An interactive Wiki/Explorer interface for navigation
    - Regular digests summarizing key information
-   All outputs are accessible through Zupass-gated interfaces.
-
-## Current Status
-This project is currently in development. Installation instructions and detailed usage guidelines will be provided as the project progresses.
