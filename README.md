@@ -5,12 +5,26 @@ The Community Wiki Tool is an innovative system designed to transform diverse co
 
 ![System Overview](overview.png)
 
+## View Graph Locally
+1. Install Obsidian from the [official website](https://obsidian.md/).
+2. Clone this repository locally using:
+   ```sh
+   git clone <repository-url>
+   ```
+3. Open the `./documents` folder in Obsidian.
+4. [Optional] Make a pull request with your desired changes.
+
 ## Installation
 ```
 git submodule init
 git submodule update
 cd quartz
 bun i
+```
+
+## Usage
+```
+bun cli generate
 ```
 
 ## Key Components
