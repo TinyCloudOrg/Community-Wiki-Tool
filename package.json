@@ -4,20 +4,27 @@
   "module": "src/index.ts",
   "type": "module",
   "scripts": {
-    "cli": "ts-node src/index.ts"
+    "cli": "ts-node src/index.ts",
+    "build": "",
+    "start": "",
+    "publish": "",
+    "lint": "eslint src/**/*.ts",
+    "format": "prettier --write src"
   },
   "dependencies": {
     "commander": "^12.1.0",
-    "dotenv": "^16.4.5"
+    "dotenv": "^16.4.5",
+    "typescript": "^5.5.4"
   },
   "devDependencies": {
+    "@eslint/js": "^9.8.0",
     "@typescript-eslint/eslint-plugin": "^8.0.1",
     "@typescript-eslint/parser": "^8.0.1",
     "bun-types": "latest",
-    "eslint": "^9.8.0",
-    "prettier": "^3.3.3"
-  },
-  "peerDependencies": {
-    "typescript": "^5.0.0"
+    "eslint": "9.x",
+    "eslint-plugin-prettier": "^5.2.1",
+    "globals": "^15.9.0",
+    "prettier": "^3.3.3",
+    "typescript-eslint": "^8.0.1"
   }
 }
