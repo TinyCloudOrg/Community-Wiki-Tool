@@ -16,7 +16,8 @@
     "dotenv": "^16.4.5",
     "fs-extra": "^11.2.0",
     "http-server": "^14.1.1",
-    "typescript": "^5.5.4"
+    "typescript": "^5.5.4",
+    "wrangler": "^3.69.1"
   },
   "devDependencies": {
     "@eslint/js": "^9.8.0",

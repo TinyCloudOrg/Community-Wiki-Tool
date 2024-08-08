@@ -1,7 +1,7 @@
 import { Command } from "commander";
 import { execSync } from "child_process";
-
 import { generateQuartzSite } from "./generate";
+import { publishToCloudflarePages } from "./publish";
 import config from "./config";
 
 // generate a site from the markdown documents using quartz
@@ -26,9 +26,13 @@ function serve(): void {
 }
 
 // publish the generated site
-function publish(arg: string, options: any): void {
-  // TODO: Implement the logic to publish a Quartz site from Obsidian content
-  console.log(`Publishing Quartz site with argument: ${arg}`);
+async function publish(): Promise<void> {
+  try {
+    console.log(`Publishing Quartz site...`);
+    await publishToCloudflarePages(config);
+  } catch (error) {
+    console.error(`Failed to publish Quartz site`, error);
+  }
 }
 
 // cli interpreter
@@ -53,9 +57,6 @@ program
 program
   .command("publish")
   .description("Publish the generated static site")
-  .argument("<arg>", "argument used to construct paths and subdomain")
-  .action((arg, options) => {
-    publish(arg, options);
-  });
+  .action(publish);
 
 program.parse(process.argv);
