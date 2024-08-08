@@ -6,8 +6,9 @@
   "scripts": {
     "cli": "tsx src/index.ts",
     "build": "bun cli generate",
-    "start": "",
-    "publish": "",
+    "start": "bun cli serve",
+    "prestart": "bun build",
+    "publish": "bun cli publish",
     "lint": "eslint src/**/*.ts",
     "format": "prettier --write src"
   },

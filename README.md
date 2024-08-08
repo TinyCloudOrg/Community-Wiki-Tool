@@ -24,7 +24,10 @@ bun i
 
 ## Usage
 ```
+bun cli help
 bun cli generate
+bun cli serve
+bun cli publish
 ```
 
 ## Key Components
