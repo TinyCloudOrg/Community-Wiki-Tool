@@ -5,6 +5,14 @@ The Community Wiki Tool is an innovative system designed to transform diverse co
 
 ![System Overview](overview.png)
 
+## Installation
+```
+git submodule init
+git submodule update
+cd quartz
+bun i
+```
+
 ## Key Components
 
 ### Input Sources
