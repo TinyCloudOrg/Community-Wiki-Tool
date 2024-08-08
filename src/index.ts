@@ -1,24 +1,28 @@
 import { Command } from "commander";
+import { execSync } from "child_process";
+
 import { generateQuartzSite } from "./generate";
 import config from "./config";
 
 // generate a site from the markdown documents using quartz
-async function generate(arg: string, options: any): Promise<void> {
+async function generate(): Promise<void> {
   try {
-    await generateQuartzSite({
-      contentPath: "./documents",
-      outputPath: "./public",
-    });
-    console.log(`Successfully generated Quartz site with argument: ${arg}`);
+    await generateQuartzSite(config);
+    console.log(`Successfully generated Quartz site`);
   } catch (error) {
-    console.error(`Failed to generate Quartz site with argument: ${arg}`, error);
+    console.error(`Failed to generate Quartz site`, error);
   }
 }
 
-// serve (locally) the generated site
-function serve(filepath: string, options: any): void {
-  // TODO: Implement the logic to process an input file and generate summaries
-  console.log(`Serving and processing file at path: ${filepath}`);
+// serve (locally) the generated site using http-server
+function serve(): void {
+  const { outputPath } = config;
+  try {
+    console.log(`Serving the site at path: ${outputPath}`);
+    execSync(`http-server ${outputPath}`, { stdio: "inherit" });
+  } catch (error) {
+    console.error(`Failed to serve the site at path: ${outputPath}`, error);
+  }
 }
 
 // publish the generated site
@@ -31,7 +35,9 @@ function publish(arg: string, options: any): void {
 const program = new Command();
 program
   .name("community-wiki-tool-cli")
-  .description("Community Wiki Tool CLI to Generate and Publish the content for the Wiki")
+  .description(
+    "Community Wiki Tool CLI to Generate and Publish the content for the Wiki",
+  )
   .version("0.1.0");
 
 program
@@ -42,7 +48,6 @@ program
 program
   .command("serve")
   .description("Serve and process an input file locally")
-  .argument("<filepath>", "path to the input file")
   .action(serve);
 
 program
