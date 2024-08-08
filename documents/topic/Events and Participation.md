@@ -1,0 +1,90 @@
+---
+title: Events and Participation in Crypto and Tech Innovation
+tags: [events, tech, crypto, blockchain, participation, conferences, hackathons]
+description: Information about participation in specific events, conferences, hackathons, and other gatherings related to crypto, blockchain, and tech innovation
+---
+
+## Overview
+
+This summary explores the participation and roles of various individuals in events, conferences, hackathons, and other gatherings related to [[#concept/crypto]], [[#concept/blockchain]], and tech innovation. Highlighting their responsibilities, interests, and backgrounds, this guide provides insights into the vibrant community making strides in these fields.
+
+## Participants and Roles
+
+### Manon - [[Aleph]] Core Team & Co-founder of [[#organization/the mu]]
+- **Background**: French, spending increasing time in Buenos Aires.
+- **Roles**: Responsible for side events, unconference, Telegram moderation, and participant happiness.
+- **Interests**: Food exploration, working out, deep conversations, and attending parties like La Bresh.
+
+### Sun - [[#organization/the mu]] Team Member
+- **Background**: From China, first visited Argentina this year.
+- **Roles**: Part of the funding team in [[#organization/Aleph]] and working on Week 2 Crypto use cases.
+- **Interests**: Business discussions, outdoor activities, and asado.
+
+### Fran - [[#organization/Crecimiento]] Member
+- **Background**: From Cordoba, Argentina, with involvement in various crypto activities.
+- **Roles**: Focuses on communications and marketing tasks within [[#organization/Aleph]] and [[#organization/Crecimiento]].
+- **Interests**: Basketball, football, paddle matches, and discussions on growth and marketing.
+
+### Guillo - Co-founder and CTO of [[#organization/Ensuro]]
+- **Background**: Argentinian, 45 years old with two daughters.
+- **Roles**: Works on blockchain-based reinsurance.
+- **Interests**: Crypto, DeFi, economy, politics, and cycling.
+
+### Santi Cristobal
+- **Background**: From Argentina, with experiences living in Italy and Spain.
+- **Roles**: General involvement in Aleph community.
+- **Interests**: Mountains, football, biking, and telling good jokes.
+
+### Laín - [[#organization/Startups Aleph]] Coordinator
+- **Background**: Ethereum Foundation Devcon VI Scholar, finishing studies in Industrial Engineering.
+- **Roles**: Coordinates operations for startups and aids multiple team members.
+- **Interests**: Parties, adventures, exercise, and Argentine culture.
+
+### Nico - SRE for [[#organization/Triton One]]
+- **Background**: From Buenos Aires, involved in crypto since childhood.
+- **Roles**: Works as an SRE in the Solana ecosystem.
+- **Interests**: Food, wine, and socializing in Buenos Aires' top bars.
+
+### Koko - Organizer of [[#concept/ETHSafari.xyz]]
+- **Background**: From Eritrea, inspired by local governance.
+- **Roles**: Organizes a major ETH-focused hackathon and conference in Africa.
+- **Interests**: Meditation, walks, and discussions on Africa, governance, and neuroscience.
+
+### Pedro Henrich - Biotech and Cybernetics Enthusiast at [[#organization/Vitalia.city]]
+- **Interests**: Bio enhancement, frontier startups, and gov-tech.
+
+### Diego - Creator of [[#concept/QuarkID protocol]]
+- **Background**: Secretary of Innovation in Buenos Aires.
+- **Roles**: Involved in [[#organization/Crecimiento]] and [[#organization/Aleph]].
+
+### Nicolas Kenny
+- **Background**: Argentinian eager to learn about blockchain and web3.
+- **Interests**: Startups, entrepreneurship, business, and coffee.
+
+### Luciano - Founder of [[#organization/Prutopia]]
+- **Interests**: River Plate football, crypto discussions, and learning new things.
+
+### Sam G - Founder of [[#organization/TinyCloud]]
+- **Roles**: Developing an AI-powered Community Wiki Tool for Aleph events.
+
+### Hunter Horsfall - Co-Founder of [[#organization/TinyCloud]]
+- **Interests**: Music, community building, and early crypto adoption.
+
+### Additional Notable Participants
+- **Fabi Async**: Involved in [[#concept/ETH Bolivia]].
+- **Danny**: Co-founder of [[#organization/TFN]], with a background in sports management.
+- **Kyle G.**: Building [[#concept/red3.me]], a platform for on-chain Distributed Autonomous Corporations (DACs).
+
+## Key Concepts
+- **Participation in events**: Essential roles include organizing, moderating, and facilitating various activities in the crypto and blockchain space.
+- **Networking**: Individuals with diverse backgrounds converge to share insights, collaborate on projects, and foster innovation.
+- **Diversity**: Contributions come from across the globe, enriching the community with different perspectives and expertise.
+
+## Interests and Hobbies
+- Many participants share interests in sports, outdoor activities, food, and culture, creating a vibrant and engaging environment.
+- Common themes include a passion for technology, blockchain, and the desire to learn and grow within the community.
+
+
+---
+This content was generated by AutoGraph, a [TinyCloud](https://tinycloud.xyz/) product.
+Generated at  Thu, 08 Aug 2024 21:04:31 GMT

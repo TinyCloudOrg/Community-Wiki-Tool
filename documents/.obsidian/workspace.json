@@ -1,0 +1,179 @@
+{
+  "main": {
+    "id": "13f48bf103d600d1",
+    "type": "split",
+    "children": [
+      {
+        "id": "f3a32e4f4b4f43bf",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c1b8cc7f94b5f7e1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "index.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "72d144fc270f4f06",
+    "type": "split",
+    "children": [
+      {
+        "id": "e11ec5284e063898",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "990873c3b794f037",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "3af3a6a01f8b8400",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "329eded186e6be7a",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "58b6a3b6357ba223",
+    "type": "split",
+    "children": [
+      {
+        "id": "0d8d2b22e751c7a5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d8b05f6c0d1dd364",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "index.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "0ab35f1c0e617bf5",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "index.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "7355338eba05ea80",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "c22c3cc9d779223e",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "index.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "c1b8cc7f94b5f7e1",
+  "lastOpenFiles": [
+    "Juan Benet.md",
+    "index.md",
+    "topic/Events and Participation.md",
+    "topic/Cultural Exchange and Activities.md",
+    "topic/Crypto and Blockchain Involvement.md",
+    "entity/person/Tomas Gurvicius.md",
+    "entity/person/Tomas.md",
+    "entity/person/Tom.md",
+    "entity/person/tobias.md",
+    "entity/person/Thassya Stersi.md",
+    "entity/person/Telamon Ardavanis.md",
+    "entity/person/sweetman.eth.md",
+    "entity/person/Sun.md",
+    "entity/person/Suka.md",
+    "entity/person/Santi Cristobal.md",
+    "entity/person/Sam G.md",
+    "entity/person/Rebeca.md",
+    "entity/person/Pedro Henrich.md",
+    "entity/person/Pacu.md",
+    "entity/person/Pablo C.md",
+    "entity/person/Nikolay Kukushkin.md",
+    "entity/person/Nicolas Kenny.md",
+    "entity/person/Nicola Salvagni.md",
+    "entity/person/Nico.md",
+    "entity/person/Navy.md",
+    "entity/person/Nadia.md",
+    "entity/concept"
+  ]
+}
